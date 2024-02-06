@@ -8,7 +8,7 @@
 @class LogController;
 
 
-@interface IRCTreeItem : NSObject <NSTableViewDataSource, NSTableViewDelegate>
+@interface IRCTreeItem : NSObject
 {
 	int uid;
 	LogController* log;
